@@ -17,7 +17,7 @@ function Skills() {
             <SkillsList src={checkMarkIcon} skill="HTML" />
             <SkillsList src={checkMarkIcon} skill="CSS" />
             <SkillsList src={checkMarkIcon} skill="Javascript" />
-            <SkillsList src={checkMarkIcon} skill="Node" />
+            <SkillsList src={checkMarkIcon} skill="Node JS" />
             <SkillsList src={checkMarkIcon} skill="React" />
             <SkillsList src={checkMarkIcon} skill="Vite" />
         </div>
@@ -39,7 +39,8 @@ function Skills() {
             <SkillsList src={checkMarkIcon} skill="Microsoft Office" />
             <SkillsList src={checkMarkIcon} skill="Visual Studio Code" />
             <SkillsList src={checkMarkIcon} skill="IntelliJ" />
-            <SkillsList src={checkMarkIcon} skill="CLI" />
+            <SkillsList src={checkMarkIcon} skill="CloudSim" />
+            <SkillsList src={checkMarkIcon} skill="Kubernetes" />
         </div>
     </section>
   );

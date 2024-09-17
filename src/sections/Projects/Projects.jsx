@@ -1,6 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
+import me from '../../assets/cowboy_me.png';
+import java from '../../assets/java1996.png';
+import adam from '../../assets/adamlogo.png';
+import risk from '../../assets/risk.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -9,28 +11,29 @@ function Projects() {
         <h1 className="sectionTitle">Projects</h1>
         <div className={styles.projectsContainer}>
             <ProjectCard 
-                src={viberr} 
+                src={adam} 
                 link="https://github.com/Ykphill/Spring-Hackathon-KSU" 
-                h3="Project Title"
-                p="Project Description Text"
+                h3="Hackathon 2024"
+                p="Contribution to the 
+                ADAM program"
             />
             <ProjectCard 
-                src={freshBurger} 
-                link="https://github.com/Ykphill/Spring-Hackathon-KSU" 
-                h3="Project Title"
-                p="Project Description Text"
+                src={java} 
+                link="https://github.com/kjberry33/Algorithm-Collection" 
+                h3="Algorithm Collection"
+                p="Self Made Algorithm Reference"
             />
             <ProjectCard 
-                src={viberr} 
-                link="https://github.com/Ykphill/Spring-Hackathon-KSU" 
-                h3="Project Title"
-                p="Project Description Text"
+                src={me} 
+                link="https://github.com/kjberry33" 
+                h3="Portfolio Website"
+                p="See the source code for the site!"
             />
             <ProjectCard 
-                src={freshBurger} 
-                link="https://github.com/Ykphill/Spring-Hackathon-KSU" 
-                h3="Project Title"
-                p="Project Description Text"
+                src={risk} 
+                link="https://github.com/kjberry33" 
+                h3="Risk Analysis Software"
+                p="Coming Soon..."
             />
         </div>
     </section>

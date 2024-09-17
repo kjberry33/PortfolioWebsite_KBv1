@@ -1,5 +1,5 @@
 import styles from './KeShaunStyles.module.css';
-import keshaunImg from '../../assets/cowboy_me.png';
+import keshaunImg from '../../assets/keshaunImg.jpeg';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import githubLight from '../../assets/github-light.svg';
@@ -39,14 +39,11 @@ function KeShaun() {
         </h1>
         <h2>Software Engineer</h2>
         <span>
-          <a href="https://linkedin.com/" target="_blank">
+          <a href="https://linkedin.com/in/keshaun-berry/" target="_blank">
             <img src={linkedinIcon} alt="Linked-In Account" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/kjberry33" target="_blank">
             <img src={githubIcon} alt="Github Account" />
-          </a>
-          <a href="https://linkedin.com/" target="_blank">
-            <img src={linkedinIcon} alt="Linked-In Account" />
           </a>
         </span>
         <p className={styles.description}>
