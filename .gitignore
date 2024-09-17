@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+#formspree
+https://formspree.io/f/mjkbddyl
