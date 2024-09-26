@@ -1,5 +1,5 @@
 import styles from './KeShaunStyles.module.css';
-import keshaunImg from '../../assets/keshaunImg.jpeg';
+import keshaunImg from '../../assets/KeShaunPerfect.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import githubLight from '../../assets/github-light.svg';
