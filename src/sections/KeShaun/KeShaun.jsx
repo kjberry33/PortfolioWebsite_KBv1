@@ -6,7 +6,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import Resume from '../../assets/Keshaun_Berry_Resume_9_12_2024.pdf';
+import Resume from '../../assets/Keshaun_Berry_Resume_9_30_2024.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 
@@ -50,7 +50,7 @@ function KeShaun() {
           Versatile software engineer with wide practical experience,
            developing software and apps to protect and aid millions.
         </p>
-        <a href={Resume} download>
+        <a href={Resume} target="_blank">
           <button className="hover">Resume</button>
         </a>
       </div>

@@ -1,6 +1,6 @@
 import styles from './ProjectsStyles.module.css';
 import me from '../../assets/cowboy_me.png';
-import java from '../../assets/java1996.png';
+import java from '../../assets/Java-Logo.png';
 import adam from '../../assets/adamlogo.png';
 import risk from '../../assets/risk.png';
 import ProjectCard from '../../common/ProjectCard';
