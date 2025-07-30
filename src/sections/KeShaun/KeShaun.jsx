@@ -6,7 +6,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import Resume from '../../assets/Keshaun_Berry_Resume_9_30_2024.pdf';
+import Resume from '../../assets/Keshaun_Berry_Resume.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 
@@ -33,11 +33,9 @@ function KeShaun() {
         />
       </div>
       <div className={styles.info}>
-        <h1>KeShaun
-          <br />
-        Berry  
-        </h1>
+        <h1>KeShaun Berry</h1>
         <h2>Software Engineer</h2>
+        <span>Currently a Software Developer @ OSC, Steamboat Group</span>
         <span>
           <a href="https://linkedin.com/in/keshaun-berry/" target="_blank">
             <img src={linkedinIcon} alt="Linked-In Account" />
@@ -47,8 +45,7 @@ function KeShaun() {
           </a>
         </span>
         <p className={styles.description}>
-          Versatile software engineer with wide practical experience,
-           developing software and apps to protect and aid millions.
+          Software engineer with a strong foundation in full-stack development.
         </p>
         <a href={Resume} target="_blank">
           <button className="hover">Resume</button>
