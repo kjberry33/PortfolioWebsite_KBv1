@@ -1,6 +1,6 @@
 # Portfolio Website - Keshaun Berry
 
-Welcome to my personal website repository! This site showcases my portfolio, resume, blog, and provides links to my social profiles.
+Welcome to version 1 of my personal website repository! This site showcases my portfolio, resume, blog, and provides links to my social profiles.
 It is built with HTML/CSS, JavaScript, React and Vite currently. It's designed to be fast, accessible, and responsive. 
 
 
