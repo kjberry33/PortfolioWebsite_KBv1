@@ -35,7 +35,7 @@ function KeShaun() {
       <div className={styles.info}>
         <h1>KeShaun Berry</h1>
         <h2>Software Engineer</h2>
-        <span>Currently a Software Developer @ OSC, Steamboat Group</span>
+        <p>Currently a Software Developer @ OSC, Steamboat Group</p>
         <span>
           <a href="https://linkedin.com/in/keshaun-berry/" target="_blank">
             <img src={linkedinIcon} alt="Linked-In Account" />
